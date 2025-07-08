@@ -1,0 +1,61 @@
+# ===================
+# Maven Build Artifacts
+# ===================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+log/
+logs/
+*.log
+
+# ===================
+# Eclipse Files
+# ===================
+.classpath
+.project
+.settings/
+.loadpath
+
+# ===================
+# OS / Editor Junk
+# ===================
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# ===================
+# IntelliJ (optional - in case you open project in IntelliJ)
+# ===================
+.idea/
+*.iml
+*.iws
+out/
+
+# ===================
+# Build Tools
+# ===================
+build/
+bin/
+
+# ===================
+# Test Reports & Coverage
+# ===================
+*.exec
+jacoco.exec
+test-output/
+
+# ===================
+# Environment / Credential Files
+# ===================
+.env
+*.env
+*.properties.local
+
+# ===================
+# Other optional ignores
+# ===================
+*.class
+*.war
+*.ear
+*.jar
